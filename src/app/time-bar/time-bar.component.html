@@ -1,0 +1,4 @@
+<div class="side-bar">
+  <div class="time-row" *ngFor="let time of times; let i = index">{{time}} <span
+    class="time-row-suffix">{{i % 2 == 0 ? getDailySuffix(i) : ""}}</span></div>
+</div>

@@ -1,0 +1,12 @@
+<div class="event"
+     [style.width.px]="event.width"
+     [style.height.px]="event.height"
+     [style.position]="'absolute'"
+     [style.top.px]="event.y"
+     [style.left.px]="event.x">
+  <div class="green-border"></div>
+  <div class="header" [ngClass]="getClassForHover()">
+    <div class="title">{{event.title}}</div>
+    <div class="subtitle">{{event.subtitle}}</div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+@import '../../../src/sass/variables';
+
+.side-bar{
+  width: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-right: 1px solid $gray_light;
+  box-sizing: border-box;
+  padding-right: 10px;
+  color: $gray;
+}
+
+.side-bar div.time-row:nth-child(odd){
+  font-weight: 700;
+  font-size: $regular;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.side-bar div.time-row:nth-child(even), .side-bar div.time-row span.time-row-suffix{
+  font-size: $small;
+  padding: 0;
+  margin: 0;
+}

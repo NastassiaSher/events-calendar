@@ -1,0 +1,19 @@
+@import "../sass/variables";
+.wrapper {
+  margin-top: 20px;
+}
+
+.container{
+  margin: 0 auto;
+  display: flex;
+  width: 720px;
+}
+
+.area{
+  width: 620px;
+  height: 720px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  background-color: $gray_extra_light;
+  position: relative;
+}

@@ -1,0 +1,22 @@
+@import 'variables';
+
+@mixin three-sides-border() {
+  -webkit-box-shadow:
+    inset -1px 0   0 $gray_light,
+    inset  0  -1px 0 $gray_light,
+    inset  0   1px 0 $gray_light;
+  -moz-box-shadow:
+    inset -1px 0   0 $gray_light,
+    inset  0  -1px 0 $gray_light,
+    inset  0   1px 0 $gray_light;
+  box-shadow:
+    inset -1px 0   0 $gray_light,
+    inset  0  -1px 0 $gray_light,
+    inset  0   1px 0 $gray_light;
+}
+
+@mixin title-overflow() {
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
